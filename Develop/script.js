@@ -32,9 +32,9 @@ $("#currentDay").append(currentDate);
 // function for changing colour according to past, present and future
 function currentTime() {
   var currentHour = moment().hours();
-  console.log("Current Hour", currentHour);
+  
   $(".time-block").each(function () {
-    console.log(this);
+    
     var plannerTime = parseInt($(this).attr("id"));
 
     if (plannerTime < currentHour) {
