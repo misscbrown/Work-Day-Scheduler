@@ -36,8 +36,12 @@ THEN the saved events persist.
 
 This has been achieved using local storage. I used set item and get item within javascript and matched it with the id's in HTML. The set item saved the text to the page, but was disappearing on refresh. I had to try it a few times before I got it working correctly - I was missing get item and had to list each 'get' individually according to the id's.
 
+Application created using Javascript, HTML and CSS
+
 
 Link to github live site: https://misscbrown.github.io/Work-Day-Scheduler/Develop/
+
+Contact: djmisscbrown@hotmail.com
 
 ![screenshot](Assets/Images/screenshot1.png)
 ![screenshot](Assets/Images/screenshot2.png)
